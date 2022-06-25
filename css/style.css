@@ -1,5 +1,9 @@
 /*reset*/
 
+.clear {
+    clear: both;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@ body {
 header {
     background-color: grey;
     color: aliceblue;
+    text-decoration: none;
 }
 
 footer {
@@ -30,6 +35,7 @@ header a {
 .container {
     width: 80%;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 #logo {
