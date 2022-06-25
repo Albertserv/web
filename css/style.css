@@ -1,48 +1,196 @@
-/*reset*/
-
-.clear {
-    clear: both;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: aliceblue;
-}
-
-header {
-    background-color: grey;
-    color: aliceblue;
-    text-decoration: none;
-}
-
-footer {
-    background-color: grey;
-    color: aliceblue;
-}
-
-
-/*editing*/
-
-header a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    text-decoration: none;
-}
-
-#logo {
-    display: inline;
-    float: left;
-}
-
-.main-nav {
-    display: inline-block;
-}
+    /*reset*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        border: none;
+        outline: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        display: block;
+        background-color: aliceblue;
+    }
+    
+    header {
+        background-color: grey;
+        color: aliceblue;
+        text-decoration: none;
+        display: block;
+        height: 92%;
+    }
+    
+    section {
+        padding-top: 60px;
+    }
+    
+    footer {
+        background-color: grey;
+        color: aliceblue;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    /*editing*/
+    
+    .portada .hero-img {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/portada2.jpg);
+        height: 98.5%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        ;
+    }
+    
+    header #logo {
+        font-family: 'Smooch', cursive;
+        text-align: center;
+        color: white;
+        font-size: 120px;
+        padding-top: 10%;
+    }
+    
+    #social {
+        position: absolute;
+        margin-top: 0;
+        top: 0;
+        right: 0;
+        padding-top: 10px;
+    }
+    
+    #social ul li {
+        display: inline-flex;
+        float: right;
+        padding: 0 20px;
+    }
+    
+    #social ul li a {
+        color: #ffffff;
+    }
+    
+    #social ul li a i {
+        color: #ffffff;
+        font-size: 30px;
+    }
+    
+    .main-nav {
+        display: inline-block;
+        padding: 15px;
+        width: 97.8%;
+        background-color: cadetblue;
+    }
+    
+    .main-nav li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: x-large;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    
+    .main-nav li:first-child {
+        padding-left: 30%;
+    }
+    
+    .slider {
+        padding-left: 10px;
+        padding-top: 20px;
+        background-image: url(../img/slider-bg.jpg);
+        display: flex;
+        margin: 2em;
+    }
+    
+    .slider-quien {
+        padding-left: 10px;
+        padding-top: 20px;
+        background-image: url(../img/slider-bg.jpg);
+        margin: 2em;
+        padding-bottom: 20px;
+    }
+    
+    .slider-servicios {
+        padding-left: 10px;
+        padding-top: 20px;
+        display: flex;
+        background-image: url(../img/slider-service-bg.jpg);
+        margin: 2em;
+        padding-bottom: 20px;
+        color: #ffffff;
+    }
+    
+    .slide-item-quien {
+        padding-right: 15px;
+        margin: 2em 0;
+    }
+    
+    .titulo {
+        padding-bottom: 10px;
+    }
+    
+    .slide-item {
+        width: 50%;
+        padding: 2em;
+    }
+    
+    .slider h1 {
+        color: rgb(7, 35, 87);
+        padding-bottom: 10px;
+    }
+    
+    .slide-item p {
+        padding-bottom: 25px;
+    }
+    
+    a.btn {
+        text-decoration: none;
+        color: inherit;
+        border: 1px solid grey;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 20px;
+        background-color: rgb(7, 35, 87);
+        color: #ffffff;
+    }
+    
+    ul.box {
+        display: flex;
+        margin: 2em;
+    }
+    
+    ul.box li.boxes {
+        padding: 30px 30px;
+        float: left;
+        text-align: justify;
+        width: 32%;
+        border-radius: 10px;
+        box-shadow: #666 0px 5px 10px;
+    }
+    
+    footer {
+        margin-top: 1em;
+        display: block;
+        padding: 3em 0;
+    }
+    
+    footer p {
+        padding-left: 2em;
+    }
+    
+    h1.servicios {
+        color: rgb(7, 35, 87);
+        margin-left: 2em;
+        margin-top: 2em;
+        font-size: 2em;
+    }
